@@ -1,0 +1,46 @@
+platform :ios, '9.0'
+use_frameworks!
+
+target 'SwfitTest' do
+#  #Swift
+#  pod 'RxSwift',            '~> 4.5.0'
+#  pod 'RxCocoa',            '~> 4.5.0'
+#  pod 'RxAlamofire',        '~> 4.4.1'            #RxAlamofire是Swift Alamofire中优雅的HTTP网络的RxSwift包装器
+#  pod 'RxDataSources',      '~> 3.1.0'
+#
+#  pod 'CryptoSwift',        '~> 1.0.0'            #加密库
+#  pod 'SwiftyUserDefaults', '~> 4.0.0'            #NSUserDefaults封装和扩展
+#  pod 'Kingfisher',         '~> 4.10.1'           #图片下载、缓存
+#  pod 'KingfisherWebP'
+#  pod 'libwebp',            '1.0.3'
+#  pod 'SnapKit',            '~> 4.2.0'            #UI约束
+#  pod 'HandyJSON',          '~> 5.0.2-beta'       #json转model
+#  pod 'CLImagePickerTool',  '~> 3.1.2'            #图片选择器
+##  pod 'RealmSwift',         '~> 3.20.0'           #数据库
+#  pod 'Segmentio',          '~> 4.1'              #分栏
+#  pod 'ZKCycleScrollView-Swift'                   #轮播图
+#  pod 'CHIPageControl'                            #指示器
+#  pod 'JXPhotoBrowser',     '2.1.5'               #图片浏览器
+#  pod 'Toast-Swift',        '~> 4.0.0'            #指示器
+#  pod 'APNGKit',            '~> 1.0'              #gif
+
+  #OC第三方库
+  pod 'YYModel' #高性能的 iOS JSON 模型框架。
+  pod 'YYCache' #高性能的 iOS 缓存框架。
+  pod 'YYImage' #功能强大的 iOS 图像框架。
+  pod 'YYWebImage' #高性能的 iOS 异步图像加载框架。
+  pod 'YYText'  #功能强大的 iOS 富文本框架。
+  pod 'YYKeyboardManager' #iOS 键盘监听管理工具
+  pod 'YYDispatchQueuePool' #iOS 全局并发队列管理工具
+  pod 'YYAsyncLayer' #iOS 异步绘制与显示的工具
+  pod 'YYCategories' #功能丰富的 Category 类型工具库。
+  
+  pod 'SDWebImage' #网络加载图片
+  pod 'AFNetworking' #网络请求库
+  pod 'Masonry'  #约束控制
+  pod 'MJRefresh' #下拉控件
+  pod 'lottie-ios', '~> 2.5.3' # oc 使用这个版本
+#  pod 'pop'
+#  pod 'ReactiveObjC'
+#  pod 'Texture'
+end
