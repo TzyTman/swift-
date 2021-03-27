@@ -37,6 +37,8 @@ class AnimationVC: UIViewController {
         //        view2.backgroundColor = UIColor.red
         //        view1.addSubview(view2)
         
+        
+        
         self.view.addSubview(view1)
 
         let btn = UIButton.init(type: .custom)
