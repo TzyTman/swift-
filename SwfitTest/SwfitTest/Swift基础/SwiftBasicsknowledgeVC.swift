@@ -8,8 +8,6 @@
 
 import UIKit
 
-
-
 class daysoFaweek {
     
     private var days = ["Sunday" , "Monday" , "Tuesday" , "Wednesday", "Thursday" , "Friday" , "saturday"]
